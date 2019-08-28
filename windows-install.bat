@@ -87,7 +87,7 @@ ping localhost -n 4 >nul
 goto :npmInstall
 :npmInstall
 echo ___________________________________________________
-echo Installing npm packages for rvnButler!
+echo Installing npm packages for myntButler!
 ping localhost -n 4 >nul
 start npm install
 echo continuing in 60 seconds
@@ -114,8 +114,8 @@ ping localhost -n 4 >nul
 goto :exit
 :exit
 echo ___________________________________________________
-echo done installing rvnButler!
+echo done installing myntButler!
 del "%nodeCheck%"
-echo please run windows-start.bat to run rvnButler with pm2!
+echo please run windows-start.bat to run myntButler with pm2!
 echo Bye Bye...
 timeout /t 60 /nobreak
