@@ -5,7 +5,7 @@ exports.commands = ['purge'];
 
 exports.purge = {
   usage: '',
-  description: 'Ban a user',
+  description: 'Purge chat',
   process: async(client, message, args) => {
 
     const deleteCount = parseInt(args[0], 10);
